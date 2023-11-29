@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Kaluma - Super Mario World</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="icon" href="../img/favicon.ico" type="image/ico">
+</head>
+
+<body>
+    <header class="modern-header">
+        <div>
+            <img class="logo" src="../img/logo.png">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about-us.html">About</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="titulo">Play Super Mario World</h1>
+    <center>
+        <div style='width:640px;height:480px;max-width:100%'>
+            <div id='janelajogo'></div>
+        </div>
+        
+        <script type='text/javascript'>
+            EJS_player = '#janelajogo';
+            
+            EJS_core = 'snes';
+            EJS_mouse = false;
+            EJS_multitap = false;
+            EJS_gameID = 2; // ID in your website, required for netplay.
+            
+            // URL to Game rom
+            EJS_gameUrl = 'https://cdn.glitch.global/e80ed295-94d7-4282-84eb-cd197622b753/Super%20Mario%20World%20(U)%20%5B!%5D.smc?v=1641937352968';
+            
+            // Path to the data directory
+            EJS_pathtodata = 'https://burritoedition.github.io/emu/data/';
+        </script>
+        <script src='https://burritoedition.github.io/emu/data/loader.js'></script>
+        
+    </center>
+    <h2 class="titulo"><b>Description</b>: blablabla</h2>
+</body>

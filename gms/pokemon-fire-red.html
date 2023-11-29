@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Kaluma - Pokemon Fire Red</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="icon" href="../img/favicon.ico" type="image/ico">
+</head>
+
+<body>
+    <header class="modern-header">
+        <div>
+            <img class="logo" src="../img/logo.png">
+        </div>
+        <nav>
+            <ul>
+                <li><button onclick="window.location.href='../index.html';">Home</button></li>
+                <li><button onclick="window.location.href='../about-us.html';">About</button></li>
+                <li><button onclick="window.location.href='../contact.html';">Contact</button></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="titulo">Play Pokemon Fire Red</h1>
+    <center>
+        <div style='width:640px;height:480px;max-width:100%'>
+            <div id='janelajogo'></div>
+        </div>
+
+        <script type='text/javascript'>
+            EJS_player = '#janelajogo';
+
+            // Can also be mgba
+            EJS_core = 'gba';
+
+            // URL to BIOS file
+            EJS_biosUrl = 'https://cdn.glitch.me/b189d138-c223-4a4a-85f8-43c7d8a03587/gba.bin?v=1641245548027';
+
+            // URL to Game rom
+            EJS_gameUrl = 'https://cdn.glitch.me/b189d138-c223-4a4a-85f8-43c7d8a03587/Pokemon%20-%20Fire%20Red%20Version%20(U)%20(V1.1).gba?v=1641245687430';
+
+            // Path to the data directory
+            EJS_pathtodata = 'https://burritoedition.github.io/emu/data/';
+        </script>
+        <script src='https://burritoedition.github.io/emu/data/loader.js'></script>
+
+    </center>
+    <h2 class="titulo"><b>Description</b>: blablabla</h2>
+</body>

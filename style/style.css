@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Ubuntu:wght@300&display=swap");
+
+body {
+  background-color: #000000;
+}
+
+.style {
+  color: #ffffff;
+  list-style: none;
+  border-left: 20px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  font-family: Ubuntu;
+}
+.style:hover {
+  color: rgb(255, 223, 40);
+}
+.janelajogo {
+  height: 600px;
+  width: 900px;
+  border: 9px solid #777777;
+}
+h1.titulo {
+  font-size: 20px;
+  text-align: center;
+  font-family: Ubuntu;
+  color: #ffffff;
+}
+h2.titulo {
+  font-size: 20px;
+  margin-left: 20px;
+  text-align: left;
+  font-family: Ubuntu;
+  color: #ffffff;
+}
+
+.modern-header {
+  background-color: #88e8ff;
+  color: #ffffff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 200px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  margin-right: 20px;
+}
+nav ul li button {
+  background-color: #88e8ff;
+  font-family: Ubuntu;
+  color: #000000;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  border: none;
+  border-radius: 40px;
+  font-size: 20.7px;
+  animation-delay: 1s;
+}
+nav ul li button:hover {
+  color: #000000;
+  position: relative;
+  font-size: 27px;
+}
+
+div h3 {
+  color: #ffffff;
+  font-family: ubuntu;
+}
