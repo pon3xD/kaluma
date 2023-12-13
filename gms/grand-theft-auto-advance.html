@@ -9,11 +9,14 @@
 <body>
     <header class="modern-header">
         <div>
-            <img class="logo" src="../img/logo.png">
+            <a href="../index.html">
+                <img class="logo" src="../img/logo.png">
+            </a>
         </div>
         <nav>
             <ul>
                 <li><button onclick="window.location.href='../index.html';">Home</button></li>
+                <li><button onclick="window.location.href='../list.html';">Games List</button></li>
                 <li><button onclick="window.location.href='../about-us.html';">About</button></li>
                 <li><button onclick="window.location.href='../contact.html';">Contact</button></li>
             </ul>
@@ -24,24 +27,156 @@
         <div style='width:640px;height:480px;max-width:100%'>
             <div id='janelajogo'></div>
         </div>
-
         <script type='text/javascript'>
             EJS_player = '#janelajogo';
-
-            // Can also be mgba
             EJS_core = 'gba';
-
-            // URL to BIOS file
-            EJS_biosUrl = 'https://cdn.glitch.global/e80ed295-94d7-4282-84eb-cd197622b753/gba_bios.bin?v=1641942995895';
-
-            // URL to Game rom
-            EJS_gameUrl = 'https://cdn.glitch.global/e80ed295-94d7-4282-84eb-cd197622b753/Grand%20Theft%20Auto%20Advance%20(USA).gba?v=1641936593866';
-
-            // Path to the data directory
-            EJS_pathtodata = 'https://burritoedition.github.io/emu/data/';
+            EJS_defaultControls = {
+                0: {
+                    0: {
+                        'value': 'x',
+                        'value2': 'BUTTON_2'
+                    },
+                    1: {
+                        'value': '',
+                        'value2': 'BUTTON_4'
+                    },
+                    2: {
+                        'value': 'shift',
+                        'value2': 'SELECT'
+                    },
+                    3: {
+                        'value': 'enter',
+                        'value2': 'START'
+                    },
+                    4: {
+                        'value': 'up arrow',
+                        'value2': 'DPAD_UP'
+                    },
+                    5: {
+                        'value': 'down arrow',
+                        'value2': 'DPAD_DOWN'
+                    },
+                    6: {
+                        'value': 'left arrow',
+                        'value2': 'DPAD_LEFT'
+                    },
+                    7: {
+                        'value': 'right arrow',
+                        'value2': 'DPAD_RIGHT'
+                    },
+                    8: {
+                        'value': 'z',
+                        'value2': 'BUTTON_1'
+                    },
+                    9: {
+                        'value': '',
+                        'value2': 'BUTTON_3'
+                    },
+                    10: {
+                        'value': 'a',
+                        'value2': 'LEFT_TOP_SHOULDER'
+                    },
+                    11: {
+                        'value': 's',
+                        'value2': 'RIGHT_TOP_SHOULDER'
+                    },
+                    12: {
+                        'value': 'tab',
+                        'value2': 'LEFT_BOTTOM_SHOULDER'
+                    },
+                    13: {
+                        'value': 'r',
+                        'value2': 'RIGHT_BOTTOM_SHOULDER'
+                    },
+                    14: {
+                        'value': '',
+                        'value2': 'LEFT_STICK',
+                    },
+                    15: {
+                        'value': '',
+                        'value2': 'RIGHT_STICK',
+                    },
+                    16: {
+                        'value': 'h',
+                        'value2': 'LEFT_STICK_X:+1'
+                    },
+                    17: {
+                        'value': 'f',
+                        'value2': 'LEFT_STICK_X:-1'
+                    },
+                    18: {
+                        'value': 'g',
+                        'value2': 'LEFT_STICK_Y:+1'
+                    },
+                    19: {
+                        'value': 't',
+                        'value2': 'LEFT_STICK_Y:-1'
+                    },
+                    20: {
+                        'value': 'l',
+                        'value2': 'RIGHT_STICK_X:+1'
+                    },
+                    21: {
+                        'value': 'j',
+                        'value2': 'RIGHT_STICK_X:-1'
+                    },
+                    22: {
+                        'value': 'k',
+                        'value2': 'RIGHT_STICK_Y:+1'
+                    },
+                    23: {
+                        'value': 'i',
+                        'value2': 'RIGHT_STICK_Y:-1'
+                    },
+                    24: {
+                        'value': '1'
+                    },
+                    25: {
+                        'value': '2'
+                    },
+                    26: {
+                        'value': '3'
+                    },
+                    27: {
+                        'value': 'add'
+                    },
+                    28: {
+                        'value': 'space'
+                    },
+                    29: {
+                        'value': 'subtract'
+                    },
+                },
+                1: {},
+                2: {},
+                3: {}
+            }
+            EJS_biosUrl = 'https://cdn.glitch.global/fd1246c4-02ab-4c93-bf2f-06eba1abbf63/gba_bios.bin?v=1702382320480';
+            EJS_gameUrl = 'https://cdn.glitch.global/fd1246c4-02ab-4c93-bf2f-06eba1abbf63/Grand%20Theft%20Auto%20Advance%20(USA).gba?v=1702382325352';
+            EJS_pathtodata = 'https://iraposeiro39.github.io/emu.js/data';
         </script>
-        <script src='https://burritoedition.github.io/emu/data/loader.js'></script>
-
+        <script src='https://iraposeiro39.github.io/emu.js/data/loader.js'></script>
     </center>
-    <h2 class="titulo"><b>Description</b>: blablabla</h2>
+    <h2 class="desc">
+        <p>WARNING: The emulator saves the progress to the cache, so it's advised to use the Save State option whenever you want to save your game. If the cache is cleaned all progress will be lost</p>
+        <p>Description:</p>
+        <p>Play the original Grand Theft Auto for the Gameboy Advance directly in this site! Complete missions, steal cars and do whatever you want in this old-school criminal sandbox game.</p>
+        <p>Controls:</p>
+        <p>On foot:</p>
+        <p>Move with the arrow keys</p>
+        <p>Z -> Attack</p>
+        <p>X -> Sprint</p>
+        <p>Z+X -> Jump</p>
+        <p>A -> Enter Vehicle</p>
+        <p>Shift -> Select Weapon</p>
+        <p>Enter -> Pause</p>
+        <p>In Vehicle:</p>
+        <p>Z -> Accelerate</p>
+        <p>X -> Brake/Reverse</p>
+        <p>Steer with left/right arrow keys</p>
+        <p>A -> Exit vehicle</p>
+        <p>Z+X -> Turret Fire</p>
+        <p>Arrow key+S -> Horn/Siren</p>
+        <p>A+S -> Sub-mission</p>
+    </h2>
 </body>
