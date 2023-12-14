@@ -2,6 +2,10 @@
 
 body {
   background-color: rgb(48, 41, 59);
+  /*don't touch, just don't*/
+  min-height: calc(100vh - 16px);
+  display: flex;
+  flex-direction: column;
 }
 
 .style {
@@ -12,25 +16,30 @@ body {
   text-decoration: none;
   font-family: Ubuntu;
 }
+
 .style:hover {
   color: rgb(255, 223, 40);
 }
+
 .janelajogo {
   height: 600px;
   width: 900px;
   border: 9px solid #777777;
 }
+
 .janelajogo-sp {
   height: 600px;
   width: 1000px;
   border: 9px solid #777777;
 }
+
 h1.titulo {
   font-size: 20px;
   text-align: center;
   font-family: Ubuntu;
   color: #ffffff;
 }
+
 h2.titulo {
   font-size: 20px;
   margin-left: 20px;
@@ -49,27 +58,19 @@ h2.titulo {
   border-radius: 5px;
 }
 
-.modern-footer {
-  background-color: rgb(173, 117, 245);
-  color: #000000;
-  padding: 15px;
-  align-items: center;
-  border-radius: 5px;
-  font-family: ubuntu;
-  font-weight: bold;
-  font-size: 15px;
-}
-
 .logo {
   width: 200px;
 }
+
 nav ul {
   list-style: none;
   display: flex;
 }
+
 nav ul li {
   margin-right: 20px;
 }
+
 nav ul li button {
   background-color: rgb(195, 157, 245);
   font-family: Ubuntu;
@@ -82,6 +83,7 @@ nav ul li button {
   animation-delay: 1s;
   filter: drop-shadow(5px 5px 2px rgba(82, 66, 102, 0.75));
 }
+
 nav ul li button:hover {
   background-color: rgb(227, 206, 255);
   color: #000000;
@@ -123,6 +125,7 @@ img {
   text-decoration: none;
   font-family: Ubuntu;
 }
+
 .list:hover {
   color: rgb(255, 223, 40);
 }
@@ -139,7 +142,7 @@ img {
   grid-template-rows: repeat(7, 1fr);
   grid-column-gap: 20px;
   grid-row-gap: 20px;
-  }
+}
   
   .div1 { grid-area: 1 / 1 / 2 / 2; }
   .div2 { grid-area: 1 / 2 / 2 / 3; }
@@ -160,4 +163,23 @@ img {
   .div17 { grid-area: 6 / 2 / 7 / 3; }
   .div18 { grid-area: 6 / 3 / 7 / 4; }
   .div19 { grid-area: 7 / 1 / 8 / 2; }
-  .div20 { grid-area: 7 / 2 / 8 / 3; } 
+  .div20 { grid-area: 7 / 2 / 8 / 3; }
+
+.modern-footer {
+  background-color: rgb(173, 117, 245);
+  color: #000000;
+  padding: 15px;
+  align-items: center;
+  border-radius: 5px;
+  font-family: ubuntu;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+main {
+  flex: 1;
+}
