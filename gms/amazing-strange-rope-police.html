@@ -4,6 +4,7 @@
     <title>Kaluma - Amazing Strange Rope Police</title>
     <link rel="stylesheet" href="../style/style.css">
     <link rel="icon" href="../img/favicon.ico" type="image/ico">
+    <script src="../scripts.js"></script>
 </head>
 
 <body>
@@ -27,9 +28,11 @@
         <div class="janelajogo">
             <iframe style="height:100%;width:100%"
                 src="https://script.google.com/macros/s/AKfycbwAoMJxFkkCGbz6H0x2lq5uVhb1vvQRKraex1znydX5Gm0jWse3HWUTvdU34ghoPqQauQ/exec"
-                frameborder="0" scrolling="no">
+                frameborder="0" scrolling="no"
+                id="game">
             </iframe>
         </div>
+        <button class="fullscreen" onclick="openFullscreen();">Fullscreen</button>
     </center>
     <h2 class="desc">
         <p>Description:</p>
@@ -45,8 +48,9 @@
         <p>Scroll -> Change Weapons</p>
     </h2>
     <footer class="modern-footer">
-        <center>
-            <p>©2023 Kaluma. All Rights Reserved</p>
-        </center>
+        <p>©2023 Kaluma. All Rights Reserved</p>
     </footer>
+    <script>
+        var elem = document.getElementById("game");
+    </script>
 </body>

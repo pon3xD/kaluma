@@ -4,6 +4,7 @@
     <title>Kaluma - Papa's Freezeria</title>
     <link rel="stylesheet" href="../style/style.css">
     <link rel="icon" href="../img/favicon.ico" type="image/ico">
+    <script src="../scripts.js"></script>
 </head>
 
 <body>
@@ -27,9 +28,11 @@
         <div class="janelajogo">
             <iframe style="height:100%;width:100%"
                 src="https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fpapa-s-freezeria.xml"
-                frameborder="0" scrolling="no">
+                frameborder="0" scrolling="no"
+                id="game">
             </iframe>
         </div>
+        <button class="fullscreen" onclick="openFullscreen();">Fullscreen</button>
     </center>
     <h2 class="desc">
         <p>Description:</p>
@@ -38,8 +41,9 @@
         <p>Select the menu items with the mouse</p> 
     </h2>
     <footer class="modern-footer">
-        <center>
-            <p>©2023 Kaluma. All Rights Reserved</p>
-        </center>
+        <p>©2023 Kaluma. All Rights Reserved</p>
     </footer>
+    <script>
+        var elem = document.getElementById("game");
+    </script>
 </body>

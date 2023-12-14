@@ -4,6 +4,7 @@
     <title>Kaluma - Soccer Physics</title>
     <link rel="stylesheet" href="../style/style.css">
     <link rel="icon" href="../img/favicon.ico" type="image/ico">
+    <script src="../scripts.js"></script>
 </head>
 
 <body>
@@ -27,9 +28,11 @@
         <div class="janelajogo-sp">
             <iframe style="height:100%;width:100%"
                 src="https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/RobiFet/podcasts@2f89c75615a626ddb961f0588b896e74290db59f/fr/sph.xml"
-                frameborder="0" scrolling="no">
+                frameborder="0" scrolling="no"
+                id="game">
             </iframe>
         </div>
+        <button class="fullscreen" onclick="openFullscreen();">Fullscreen</button>
     </center>
     <h2 class="desc">
         <p>Description:</p>
@@ -39,8 +42,9 @@
         <p>W -> Jump red team</p>
     </h2>
     <footer class="modern-footer">
-        <center>
-            <p>©2023 Kaluma. All Rights Reserved</p>
-        </center>
+        <p>©2023 Kaluma. All Rights Reserved</p>
     </footer>
+    <script>
+        var elem = document.getElementById("game");
+    </script>
 </body>
