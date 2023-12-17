@@ -1,4 +1,7 @@
 # Kaluma - Games Site
+Host: InfinityFree
+URL: https://kaluma.000.pe
+
 ## Things to know:
  - Every change must go to the beta branch before being uploaded to the main branch and subsequently put online;
 
