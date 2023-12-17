@@ -10,9 +10,12 @@
  - Improve the code:
    - Make the games list more modular (damn grids)
  - Make html templates for the games and list
- - (AFTER GRADING) Add new games every month
- - (AFTER GRADING) Add new Easter eggs (and if possible, add a counter to track how many Easter eggs one has found)
-
+ - Self-host the flash/HTML5 games
+ - Credit the author of every game
+ - Add new games every month
+ - Add new Easter eggs (and if possible, add a counter to track how many Easter eggs one has found)
+ - Get a better DNS Record (like www.kaluma.net)
+ - Create a Google index entry
 
 ⣿⣿⣿⣿⠏⠘⠛⠂⠄⠄⠉⠙⢻⡟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠄⠄⣿ ⣿⣿⣿⣿⠏⠘⠛⠂⠄⠄⠉⠙⢻⡟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠄⠄⣿
 ⣿⣿⡟⣩⣄⠄⠄⠛⠷⠄⠄⢀⣾⠗⠄⠄⠄⠄⠄⢀⣄⣙⠻⣿⡿⠿⠃⢀⣼⣿ ⣿⣿⡟⣩⣄⠄⠄⠛⠷⠄⠄⢀⣾⠗⠄⠄⠄⠄⠄⢀⣄⣙⠻⣿⡿⠿⠃⢀⣼⣿
