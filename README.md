@@ -3,7 +3,7 @@ Host: InfinityFree
 URL: https://kaluma.000.pe
 
 ## Things to know:
- - Every change must go to the beta branch before being uploaded to the main branch and subsequently put online;
+ - Every change must first go to a different branch (like testing, beta, etc.), then to a pull request, and only then can it be commited and merged to the main branch
 
  - For something to be put online, it must be approved by everyone;
 
