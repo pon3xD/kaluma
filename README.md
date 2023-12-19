@@ -1,7 +1,9 @@
 # Kaluma - Games Site
-Host: InfinityFree
-URL: https://kaluma.000.pe
-
+-Host: InfinityFree
+-URL: https://dash.infinityfree.com/accounts/if0_35429730
+-Email: kaluma.devs@gmail.com
+-Pass: (#*Amulak2023*#)
+-Website URL: klauma.000.pe
 ## Things to know:
  - Every change must first go to a different branch (like testing, beta, etc.), then to a pull request, and only then can it be commited and merged to the main branch
 
