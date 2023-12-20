@@ -5,14 +5,19 @@
     <style>
         html {
             height: 100%;
+            overflow: hidden;
         }
         .bg { 
             background: linear-gradient(to bottom, rgb(0, 110, 255), rgb(138, 189, 255)); 
         }
-        .face {max-height: 100%; z-index: 1; position: absolute;}
+        .face {
+            max-height: 100%;
+            z-index: 1;
+            position: absolute;
+        }
 		.highlight {
-			max-width: 100%;
-			animation: rotation 10s infinite linear;
+			width: 100%;
+			animation: rotation 15s infinite linear;
 		}
         div {
             text-align: center;
@@ -34,6 +39,6 @@
 <body class="bg">
     <div>
         <img class="face" src="../img/romao.png">
-		<img class="highlight" src="../img/highlight.png">
+        <img class="highlight" src="../img/highlight.png">
     </div>
 </body>
