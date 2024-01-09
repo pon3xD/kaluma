@@ -4,12 +4,13 @@
  - Email: `kaluma.devs@gmail.com`
  - Pass: `#*Amulak2023*#`
  - Website URL:`https://kaluma.wuaze.com`
+
 ## Things to know:
- - Every change must first go to a different branch (like testing, beta, etc.), then to a pull request, and only then can it be commited and merged to the main branch
- - For something to be put online, it must be approved by everyone;
- - Only update the website after Godinho gives us our grade :).
+ - Every change must first go to a different branch (like testing, beta, etc.), then to a pull request, and only then can it be commited and merged to the main branch;
+ - For something to be put online, it must be approved by everyone.
 
 ## TO DO (eventually)
+ - Add "The midnight games" (ask maia if you don't know what it is)
  - Add an option to select the look of the website
  - Make html templates for the games and list
  - Credit the author of every game
