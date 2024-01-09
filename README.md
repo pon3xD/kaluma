@@ -10,6 +10,7 @@
  - Only update the website after Godinho gives us our grade :).
 
 ## TO DO (eventually)
+ - Add an option to select the look of the website
  - Make html templates for the games and list
  - Credit the author of every game
  - Add new games every month
