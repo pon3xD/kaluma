@@ -10,6 +10,8 @@
  - For something to be put online, it must be approved by everyone.
 
 ## TO DO (eventually)
+ - Get a better DNS Record (like www.kaluma.net).
+ - Make html templates for the games and list;
  - Add "The midnight games" (ask maia if you don't know what it is);
  - Add an options page;
  - Add an option to select the look of the website:
@@ -20,11 +22,9 @@
    - Vaporwave;
    - Famicom;
    - Shu (header/footer: black; bg: /img/twingo.png).
- - Make html templates for the games and list;
  - Credit the author of every game;
  - Add new games every month;
  - Add new Easter eggs (and if possible, add a counter to track how many Easter eggs one has found);
- - Get a better DNS Record (like www.kaluma.net).
 
 ⣿⣿⣿⣿⠏⠘⠛⠂⠄⠄⠉⠙⢻⡟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠄⠄⣿ ⣿⣿⣿⣿⠏⠘⠛⠂⠄⠄⠉⠙⢻⡟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠄⠄⣿
 ⣿⣿⡟⣩⣄⠄⠄⠛⠷⠄⠄⢀⣾⠗⠄⠄⠄⠄⠄⢀⣄⣙⠻⣿⡿⠿⠃⢀⣼⣿ ⣿⣿⡟⣩⣄⠄⠄⠛⠷⠄⠄⢀⣾⠗⠄⠄⠄⠄⠄⢀⣄⣙⠻⣿⡿⠿⠃⢀⣼⣿
