@@ -11,7 +11,6 @@
 
 ## TO DO (eventually)
  - Get a better DNS Record (like www.kaluma.net).
- - Make html templates for the games and list;
  - Add "The midnight games" (ask maia if you don't know what it is);
  - Add an options page;
  - Add an option to select the look of the website:
