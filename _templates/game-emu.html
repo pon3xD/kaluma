@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<head>
+    <!--Aqui tens de meter o titulo do jogo (Não metas tudo em caps)-->
+    <title>Kaluma - Street Fighter 3: Third Strike</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="icon" href="../img/favicon.ico" type="image/ico">
+    <script src="../scripts.js"></script>
+</head>
+
+<body>
+    <header class="modern-header">
+        <div>
+            <a href="../index.html">
+                <img class="logo" src="../img/logo.png">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><button onclick="window.location.href='../index.html';">Home</button></li>
+                <li><button onclick="window.location.href='../list.html';">Games List</button></li>
+                <li><button onclick="window.location.href='../about-us.html';">About</button></li>
+                <li><button onclick="window.location.href='../contact.html';">Contact</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <!--Aqui tens de meter o titulo do jogo (Não metas tudo em caps)-->
+    <h1 class="titulo">Play Street Fighter 3: Third Strike</h1>
+    <center>
+        <div style='width:640px;height:480px;max-width:100%'>
+            <div id='janelajogo'></div>
+        </div>
+        <script type='text/javascript'>
+            // EMULATOR.JS CONFIGS
+            //
+            EJS_player = '#janelajogo';
+            // Isto é o core do emulador, pode ser gba, snes, arcade, nds, etc.
+            EJS_core = 'arcade';
+            // Isto é para dar bind dos comandos, vai a este site para mais detalhes
+            // value = keyboard
+            // value2 = controller
+            // https://emulatorjs.org/docs4devs/Control%20Mapping.html
+            EJS_defaultControls = {
+                0: {
+                    0: {
+                        // B
+                        'value': 'z',
+                        'value2': 'BUTTON_2'
+                    },
+                    1: {
+                        // Y
+                        'value': 'a',
+                        'value2': 'BUTTON_4'
+                    },
+                    2: {
+                        // SELECT
+                        'value': 'shift',
+                        'value2': 'SELECT'
+                    },
+                    3: {
+                        // START
+                        'value': 'enter',
+                        'value2': 'START'
+                    },
+                    4: {
+                        // UP
+                        'value': 'up arrow',
+                        'value2': 'DPAD_UP'
+                    },
+                    5: {
+                        // DOWN
+                        'value': 'down arrow',
+                        'value2': 'DPAD_DOWN'
+                    },
+                    6: {
+                        // LEFT
+                        'value': 'left arrow',
+                        'value2': 'DPAD_LEFT'
+                    },
+                    7: {
+                        // RIGHT
+                        'value': 'right arrow',
+                        'value2': 'DPAD_RIGHT'
+                    },
+                    8: {
+                        // A
+                        'value': 'x',
+                        'value2': 'BUTTON_1'
+                    },
+                    9: {
+                        // X
+                        'value': 's',
+                        'value2': 'BUTTON_3'
+                    },
+                    10: {
+                        // L
+                        'value': 'd',
+                        'value2': 'LEFT_TOP_SHOULDER'
+                    },
+                    11: {
+                        // R
+                        'value': 'c',
+                        'value2': 'RIGHT_TOP_SHOULDER'
+                    },
+                    12: {
+                        // L2
+                        'value': 'tab',
+                        'value2': 'LEFT_BOTTOM_SHOULDER'
+                    },
+                    13: {
+                        // R2
+                        'value': 'r',
+                        'value2': 'RIGHT_BOTTOM_SHOULDER'
+                    },
+                    14: {
+                        // L3
+                        'value': '',
+                        'value2': 'LEFT_STICK',
+                    },
+                    15: {
+                        // R3
+                        'value': '',
+                        'value2': 'RIGHT_STICK',
+                    },
+                    16: {
+                        // L STICK RIGHT
+                        'value': 'h',
+                        'value2': 'LEFT_STICK_X:+1'
+                    },
+                    17: {
+                        // L SITCK LEFT
+                        'value': 'f',
+                        'value2': 'LEFT_STICK_X:-1'
+                    },
+                    18: {
+                        // L STICK DOWN
+                        'value': 'g',
+                        'value2': 'LEFT_STICK_Y:+1'
+                    },
+                    19: {
+                        // L SITCK UP
+                        'value': 't',
+                        'value2': 'LEFT_STICK_Y:-1'
+                    },
+                    20: {
+                        // R STICK RIGHT
+                        'value': 'l',
+                        'value2': 'RIGHT_STICK_X:+1'
+                    },
+                    21: {
+                        // R STICK LEFT
+                        'value': 'j',
+                        'value2': 'RIGHT_STICK_X:-1'
+                    },
+                    22: {
+                        // R STICK DOWN
+                        'value': 'k',
+                        'value2': 'RIGHT_STICK_Y:+1'
+                    },
+                    23: {
+                        // R STICK UP
+                        'value': 'i',
+                        'value2': 'RIGHT_STICK_Y:-1'
+                    },
+                    24: {
+                        // QUICK SAVE STATE
+                        'value': '1'
+                    },
+                    25: {
+                        // QUICK LOAD STATE
+                        'value': '2'
+                    },
+                    26: {
+                        // CHANGE STATE SLOT
+                        'value': '3'
+                    },
+                    27: {
+                        // FAST FORWARD
+                        'value': 'add'
+                    },
+                    28: {
+                        // SLOW MOTION
+                        'value': 'space'
+                    },
+                    29: {
+                        // REWIND
+                        'value': 'subtract'
+                    },
+                },
+                1: {},
+                2: {},
+                3: {}
+            }
+            // Aqui vai o link da rom (pede ao maia para meter na glitch)
+            EJS_gameUrl = 'https://cdn.glitch.me/fd1246c4-02ab-4c93-bf2f-06eba1abbf63/sfiii3.zip?v=1701859958607';
+            // Aqui vai o link dos ficheiros do emulador, podes deixar assim
+            EJS_pathtodata = 'https://iraposeiro39.github.io/emu.js/data/';
+        </script>
+        <script src='https://iraposeiro39.github.io/emu.js/data/loader.js'></script>
+    </center>
+    <h2 class="desc">
+        <!--Deixa tar este warning em todos os jogos que usam o emulador-->
+        <p>WARNING: The emulator saves the progress to the cache, so it's advised to use the Save State option whenever you want to save your game. If the cache is cleaned all progress will be lost</p>
+        <!--Metes uma descrição do jogo, não muito grande lmao-->
+        <p>Description:</p>
+        <p>Street Fighter 3: Third Strike is a classic fighting game with solid mechanics and gameplay, making it one of the best fighting games of all time. The objective is simple, defeat every adversary until you reach the new generation of god, Gill.</p>
+        <!--Aqui metes quais é que são os controlos-->
+        <p>Controls:</p>
+        <p>Move with the arrows</p>
+        <p>A -> Light Punch</p>
+        <p>S -> Medium Punch</p>
+        <p>D -> Heavy Punch</p>
+        <p>Z -> Light Kick</p>
+        <p>X -> Medium Kick</p>
+        <p>C -> Heavy Kick</p>
+        <p>Enter -> Start</p>
+        <p>Shift -> Coin</p>
+        <!--Se for preciso, mete umas ProTips com alguns detalhes que podem não ser obvios para o jogador-->
+        <p>ProTip: You need to insert at least 2 coins to start playing</p>
+    </h2>
+    </main>
+    <footer class="modern-footer">
+        <p>©2023 Kaluma. All Rights Reserved</p>
+    </footer>
+</body>
