@@ -1,8 +1,13 @@
 # Kaluma - Games Site
  - Host: InfinityFree
  - URL: `https://dash.infinityfree.com/accounts/if0_35429730`
+ - <details><summary>Email and Pass</summary>
+ <p>
  - Email: `kaluma.devs@gmail.com`
  - Pass: `#*Amulak2023*#`
+ </p>
+ </details>
+
  - Website URL:`https://kaluma.wuaze.com`
 
 ## Things to know:
