@@ -21,8 +21,27 @@ body {
   color: rgb(255, 223, 40);
 }
 
+.style-new {
+  color: rgb(255, 223, 40);
+  list-style: none;
+  border-left: 20px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  font-family: Ubuntu;
+}
+
+.style-new:hover {
+  color: #ffffff;
+}
+
 .janelajogo {
   height: 600px;
+  width: 900px;
+  border: 9px solid #777777;
+}
+
+.janelajogo-2048 {
+  height: 900px;
   width: 900px;
   border: 9px solid #777777;
 }
@@ -128,6 +147,20 @@ img {
 
 .list:hover {
   color: rgb(255, 223, 40);
+}
+
+.list-new {
+  font-size: 20px;
+  color: rgb(255, 223, 40);
+  list-style: none;
+  border-left: 20px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  font-family: Ubuntu;
+}
+
+.list-new:hover {
+  color: rgb(255, 255, 255);
 }
 
 .list-box {
