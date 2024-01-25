@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<head>
+    <!--Aqui tens de meter o titulo do jogo (Não metas tudo em caps)-->
+    <title>Kaluma - Angry Birds</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="icon" href="../img/favicon.ico" type="image/ico">
+    <script src="../scripts.js"></script>
+</head>
+
+<body>
+    <header class="modern-header">
+        <div>
+            <a href="../index.html">
+                <img class="logo" src="../img/logo.png">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><button onclick="window.location.href='../index.html';">Home</button></li>
+                <li><button onclick="window.location.href='../list.html';">Games List</button></li>
+                <li><button onclick="window.location.href='../about-us.html';">About</button></li>
+                <li><button onclick="window.location.href='../contact.html';">Contact</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--Aqui tens de meter o titulo do jogo (Não metas tudo em caps)-->
+        <h1 class="titulo">Play Angry Birds</h1>
+        <center>
+            <div class="janelajogo">
+                <!--Aqui metes o link do jogo-->
+                <iframe style="height:100%;width:100%"
+                    src="https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/gertdoro/UnityExplorer@30e7601c53b57634d2288fd993d8baaeae060eb2/CSConsole/Lexers/ab.xml"
+                    frameborder="0" scrolling="no" id="game">
+                </iframe>
+            </div>
+            <button class="fullscreen" onclick="openFullscreen();">Fullscreen</button>
+        </center>
+        <h2 class="desc">
+            <!--Metes uma descrição do jogo, não muito grande lmao-->
+            <p>Description:</p>
+            <p>Launch birds with a slingshot to destroy structures and defeat pigs hidden within them.</p>
+            <!--Aqui metes quais é que são os controlos-->
+            <p>Controls:</p>
+            <p>Use your mouse to aim the slingshot and adjust the trajectory. Click and hold the left mouse button to pull back the slingshot, then release to launch the bird.</p>
+        </h2>
+    </main>
+    <footer class="modern-footer">
+        <p>©2023 Kaluma. All Rights Reserved</p>
+    </footer>
+    <script>
+        var elem = document.getElementById("game");
+    </script>
+</body>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<head>
+    <!--Aqui tens de meter o titulo do jogo (Não metas tudo em caps)-->
+    <title>Kaluma - 2048</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="icon" href="../img/favicon.ico" type="image/ico">
+    <script src="../scripts.js"></script>
+</head>
+
+<body>
+    <header class="modern-header">
+        <div>
+            <a href="../index.html">
+                <img class="logo" src="../img/logo.png">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><button onclick="window.location.href='../index.html';">Home</button></li>
+                <li><button onclick="window.location.href='../list.html';">Games List</button></li>
+                <li><button onclick="window.location.href='../about-us.html';">About</button></li>
+                <li><button onclick="window.location.href='../contact.html';">Contact</button></li>
+                <li><button onclick="switchImg()">?</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--Aqui tens de meter o titulo do jogo (Não metas tudo em caps)-->
+        <h1 class="titulo">Play 2048</h1>
+        <center><img id="imgToSwitch"></center>
+        <center>
+            <div class="janelajogo-2048">
+                <!--Aqui metes o link do jogo-->
+                <iframe style="height:100%;width:100%"
+                    src="https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/bobydob/JSEngine@699000e1fa30c8a6cd0ed9c0d45b0f8dabedf0c9/build/2048/2048.xml"
+                    frameborder="0" scrolling="no" id="game">
+                </iframe>
+            </div>
+            <button class="fullscreen" onclick="openFullscreen();">Fullscreen</button>
+        </center>
+        <h2 class="desc">
+            <!--Metes uma descrição do jogo, não muito grande lmao-->
+            <p>Description:</p>
+            <p>The classic tile matching game with the objective of combining multiples of each number until you get 2048. Pretty straight-forward, very addictive.</p>
+            <!--Aqui metes quais é que são os controlos-->
+            <p>Controls:</p>
+            <p>Use the arrows to move the tiles</p>
+        </h2>
+    </main>
+    <footer class="modern-footer">
+        <p>©2023 Kaluma. All Rights Reserved</p>
+    </footer>
+    <script>
+        var elem = document.getElementById("game");
+    </script>
+</body>

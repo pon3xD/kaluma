@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<head>
+    <!--Aqui tens de meter o titulo do jogo (Não metas tudo em caps)-->
+    <title>Kaluma - Drift Hunter</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="icon" href="../img/favicon.ico" type="image/ico">
+    <script src="../scripts.js"></script>
+</head>
+
+<body>
+    <header class="modern-header">
+        <div>
+            <a href="../index.html">
+                <img class="logo" src="../img/logo.png">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><button onclick="window.location.href='../index.html';">Home</button></li>
+                <li><button onclick="window.location.href='../list.html';">Games List</button></li>
+                <li><button onclick="window.location.href='../about-us.html';">About</button></li>
+                <li><button onclick="window.location.href='../contact.html';">Contact</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--Aqui tens de meter o titulo do jogo (Não metas tudo em caps)-->
+        <h1 class="titulo">Play Drift Hunter</h1>
+        <center>
+            <div class="janelajogo">
+                <!--Aqui metes o link do jogo-->
+                <iframe style="height:100%;width:100%"
+                    src="https://zayaruzostreetorgan.com/editor/uploads/5/5/6/7/5567194/custom_themes/136734914403232081/drift_hunter.html"
+                    frameborder="0" scrolling="no" id="game">
+                </iframe>
+            </div>
+            <button class="fullscreen" onclick="openFullscreen();">Fullscreen</button>
+        </center>
+        <h2 class="desc">
+            <!--Metes uma descrição do jogo, não muito grande lmao-->
+            <p>Description:</p>
+            <p>The game features a variety of real-life and fictional cars, detailed tuning options, and different tracks to drift on.</p>
+            <!--Aqui metes quais é que são os controlos-->
+            <p>Controls:</p>
+            <p>Click into the camera symbol to change the camera view.</p>
+            <p>W -> Accelerate</p>
+            <p>S -> Brake</p>
+            <p>A -> Turn left</p>
+            <p>D -> Turn right</p>
+            <p>Space Bar -> Hand Brake</p>
+        </h2>
+    </main>
+    <footer class="modern-footer">
+        <p>©2023 Kaluma. All Rights Reserved</p>
+    </footer>
+    <script>
+        var elem = document.getElementById("game");
+    </script>
+</body>
