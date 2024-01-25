@@ -1,9 +1,9 @@
 # Kaluma - Games Site
  - Host: InfinityFree
  - URL: `https://dash.infinityfree.com/accounts/if0_35429730`
- - Email: `kaluma.devs@gmail.com`
- - Pass: `#*Amulak2023*#`
-<details><summary>CLICK ME</summary>
+ - Website URL:`https://kaluma.wuaze.com`
+
+<details><summary>Email and Pass</summary>
 <p>
 
  - Email: `kaluma.devs@gmail.com`
@@ -11,7 +11,6 @@
 
 </p>
 </details>
- - Website URL:`https://kaluma.wuaze.com`
 
 ## Things to know:
  - Every change must first go to a different branch (like testing, beta, etc.), then to a pull request, and only then can it be commited and merged to the main branch;
