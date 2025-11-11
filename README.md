@@ -1,7 +1,7 @@
 # Kaluma - Games Site
  - Host: InfinityFree
  - URL: `https://dash.infinityfree.com/accounts/if0_35429730`
- - Website URL: pon3xD.github.io/kaluma
+ - Website URL: https://pon3xD.github.io/kaluma
 
 <details><summary>Email and Pass</summary>
 <p>
