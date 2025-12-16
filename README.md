@@ -1,15 +1,8 @@
 # Kaluma - Games Site
- - Host: InfinityFree
- - URL: `https://dash.infinityfree.com/accounts/if0_35429730`
+ - Host: Github
  - Website URL: https://pon3xD.github.io/kaluma
 
 <details><summary>Email and Pass</summary>
-<p>
-
- - Email: `kaluma.devs@gmail.com`
- - Pass: `#*Amulak2023*#`
-
-</p>
 </details>
 
 ## Things to know:
@@ -18,7 +11,7 @@
 
 ## TO DO (eventually)
  - Get a better DNS Record (like www.kaluma.net).
- - Add "The midnight games" (ask maia if you don't know what it is);
+ - Add "The midnight games" (ask iraposeiro if you don't know what it is);
  - Add an options page;
  - Add an option to select the look of the website:
    - Gradient Purple (default);
