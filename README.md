@@ -2,9 +2,6 @@
  - Host: Github
  - Website URL: https://pon3xD.github.io/kaluma
 
-<details><summary>Email and Pass</summary>
-</details>
-
 ## Things to know:
  - Every change must first go to a different branch (like testing, beta, etc.), then to a pull request, and only then can it be commited and merged to the main branch;
  - For something to be put online, it must be approved by everyone.
